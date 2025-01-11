@@ -404,7 +404,7 @@
       <!-- About text end -->
 
       <!-- banner -->
-      <section class=" swiper-container2 sb-p-0-60">
+      <section class=" swiper-container2 sb-p-60-60" style="padding-bottom: 60px;">
 
         <div class="swiper-wrapper">
 
@@ -421,7 +421,7 @@
                 </div>
                 <div class="">
                   <div class="">
-                    <img src="img/slider/tea1.jpg" alt="girl" style="width: 1300px; height: 300px;">
+                    <img class=" object-cover" src="img/slider/tea1.jpg" alt="girl" style="width: 1300px; height: 300px;">
 
                   </div>
                 </div>
@@ -440,7 +440,7 @@
                 </div>
                 <div class="">
                   <div class="">
-                    <img src="img/slider/tea2.jpg" alt="girl " class="" style=" width: 1300px; height: 300px;">
+                    <img class=" object-cover" src="img/slider/tea2.jpg" alt="girl " class="" style=" width: 1300px; height: 300px;">
 
                   </div>
                 </div>
@@ -459,7 +459,7 @@
                 </div>
                 <div class="">
                   <div class="">
-                    <img src="img/slider/tea3.jpg" alt="girl" style="width: 1300px; height: 300px;">
+                    <img class=" object-cover" src="img/slider/tea3.jpg" alt="girl" style="width: 1300px; height: 300px;">
 
                   </div>
                 </div>
@@ -471,14 +471,14 @@
 
     <!-- Pagination and Navigation -->
     <!-- <div class="swiper-pagination" style="display: none;"></div> -->
-    <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-button-next"></div>-->
+    <!--<div class="swiper-button-prev"></div> -->
     </section>
     <!-- banner end -->
 
 
     <!-- categories -->
-    <section class="sb-p-0-60 ">
+    <section class="sb-p-30-30 ">
       <div class="container">
         <div class="sb-group-title sb-mb-30">
           <div class="sb-left sb-mb-30">
@@ -561,7 +561,7 @@
 
     <!-- short menu -->
     <section class="sb-short-menu ">
-      <div class="sb-bg-2">
+      <div class="sb-bg-2 sb-p-60-60">
         <div></div>
       </div>
       <div class="container">
@@ -666,9 +666,7 @@
   <!-- short menu end -->
 
   <section>
-    <div class="sb-bg-2 sb-bg-0-90">
-      <div></div>
-    </div>
+    
     <!--RoadMap Using Tailwind CSS-->
 
     <div class="container sb-p-60-60">
@@ -757,7 +755,7 @@
 
   </section>
   <!-- promo -->
-  <section class="sb-p-30-30 ">
+  <section class="sb-p-60-60 ">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -823,7 +821,6 @@
       <div class="container ">
         <div class="flex flex-column flex-row">
         <div>
-        <h1 class="sb-mb-30 " style="color: #f8b802;">Our <span>Story</span></h1>
         <div class="sb-main-title" >
           <h2 class="sb-mb-30  " > <span>My Tea</span> <span>-</span> <span> UAE's</span> Favourite Brand</h2>
           <p class="sb-text sb-text-lg sb-mb-30 ">Welcome to My Tea, where our passion for tea inspires us to share the 
@@ -838,7 +835,8 @@
         <img src="img/ui/story.jpg" class="responsive-image" alt="Story Image">      </div>
     </div>
 <div>
-  <h2 class="sb-mb-20  text-center" style="padding: 40px 40px;"><span>That's </span><span>how we reached here. </h2>
+  <h2 class="sb-mb-20  " style="padding-top: 60px ;
+        padding-bottom: 40px ;"><span>That's </span><span>how we reached here. </h2>
     <div class="container">
 
 
@@ -939,22 +937,35 @@
       </div>
       <div class="usp-section  flex-column" style="margin-top: 50px; margin-bottom:  50px;">
         <div>
-        <h2 class=" text-center" style="padding: 40px 40px;"><span>Our Universal </span><span>Selling Price </h2>
+        <h2  style="padding-top: 40px ;
+        padding-bottom: 40px ;"><span>Our Universal </span><span>Selling Price </h2>
         </div>
-<div class="flex flex-col md:flex-row" style="margin-top: 24px;">
-        <div class="usp-box">
-          <h3>Premium Quality</h3>
+        <div>
+        <div class="object-cover flex flex-col md:flex-row gap-4" style="margin-top:24px;">
+        <div style="background-color:#f8b802;" class="usp-box object-cover ">
+          <h3 >Premium Quality</h3>
           <p>Our teas are sourced from the finest gardens.</p>
         </div>
-        <div class="usp-box">
+        <div style="background-color:#f8b802;" class="usp-box object-cover">
           <h3>Organic Ingredients</h3>
           <p>We use only 100% organic ingredients.</p>
         </div>
-        <div class="usp-box">
+        <div style="background-color:#f8b802;"  class="usp-box object-cover">
           <h3>Sustainable Practices</h3>
           <p>Committed to environmentally friendly sourcing.</p>
         </div>
       </div>
+       <!-- button -->
+        <div class="" style="margin-left: 500px;">
+       <a href="#" class="sb-btn sb-btn-usp ">
+        <span class="sb-icon">
+          <img src="img/ui/icons/menu.svg" alt="icon">
+        </span>
+        <span class="text-center items-center">Visit Our Menu!</span>
+      </a>
+      </div>
+    </div>
+      <!-- button end -->
     </div>
       <!-- Include GSAP -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
@@ -1314,7 +1325,6 @@
   </footer>
   <!-- footer end -->
 
-  </div>
 
   <!-- dynamic content end -->
 
@@ -1349,7 +1359,6 @@
   </div>
   <!-- discount popup end -->
 
-  </div>
   <script>
     // GSAP hover effect
     // GSAP hover effect for multiple elements with the same class

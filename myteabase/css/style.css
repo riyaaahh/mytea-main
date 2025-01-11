@@ -3980,13 +3980,10 @@ illustration 9
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 40px;
   text-align: center;
-  opacity: 0; /* Start hidden for animation */
+  opacity: 0; 
 }
 
 .usp-box h3 {
   margin-top: 0;
 }
 
-.usp-box p {
-
-}
